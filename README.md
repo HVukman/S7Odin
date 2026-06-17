@@ -15,7 +15,7 @@ import "core:strings"
 
 draw_text :: proc "c" (sc : ^s7.s7_scheme,  args : s7.s7_pointer) -> s7.s7_pointer
 {
-    /* This function expects: (draw-text "text" x y font-size color) */
+    /* This function expects: (draw-text "text" x y font-size ) */
     arg1 := s7.s7_car(args)
     arg2 := s7.s7_cadr(args)     // x position
     arg3 := s7.s7_caddr(args)   // y position
