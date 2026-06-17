@@ -1,4 +1,4 @@
-S7 Bindings for Odin
+S7 Bindings for Odin (Linux)
 
 Example
 ```Odin
