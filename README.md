@@ -94,6 +94,7 @@ main :: proc() {
   
     /*
     Example from S7 Website
+	https://ccrma.stanford.edu/software/snd/snd/s7-ffi.html#defun
        // Define the vals function
     // s7_define_function(s7_, "vals", vals, 0, 0, true, nil)
     
