@@ -1,6 +1,7 @@
--S7 Scheme Bindings for Odin (Linux)
 
-Example
+# S7 Scheme Bindings for Odin (Linux)
+
+## Example
 ```Odin
 package main
 
