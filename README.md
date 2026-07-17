@@ -70,8 +70,9 @@ main :: proc() {
   
     rl.InitWindow(600,400,"Window")
     defer rl.CloseWindow()
-    // draw-text is defined in Odin
+    // draw-text is defined in Odin and passed as draw_text
 	// Function with 4 Parameters and 0 return
+	// Followed by optional explanation
     s7.s7_define_function(s7_, "draw-text", draw_text, 4, 0, false, 
                        "(draw-text text x y font-size) draws text at position")
     // called in game.scm
